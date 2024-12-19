@@ -1,0 +1,343 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* All Common CSS Start */
+.container{
+    width: 1130px;
+    margin: 0 auto;
+}
+ul,ol{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.margin_right{margin-right: 0 !important;}
+.border_top{border-top: 1px solid rgb(158 158 158 / 30%);}
+/* All Common CSS End */
+
+/* header_part Start */
+#header_part{
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    z-index: 999999;
+}
+.logo{
+    width: 40%;
+}
+.header {
+    display: flex;
+    margin: 15px 0;
+}
+.menu{
+    width: 40%;
+    text-align: center;
+}
+.menu li {
+    display: inline-block;
+    padding: 0 25px;
+}
+.menu li a {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    color: black;
+    line-height: 45px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.icons{
+    width: 20%;
+    text-align: right;
+}
+.icons a{
+    color: black;
+    padding-left: 15px;
+    line-height: 45px;
+}
+
+/* header_part End */
+
+/* banner_part Start */
+#banner_part{
+    background: url(../images/banner.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.banner_txt {
+    padding: 200px 0 150px;
+}
+.banner_txt h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 64px;
+    font-weight: 600;
+    color: white;
+    line-height: 76px;
+    padding-right: 600px;
+    margin-bottom: 20px;
+}
+.banner_txt p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    color: white;
+    padding-right: 615px;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+.banner_txt a {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    color: #000000;
+    padding: 15px 30px;
+    background-color: white;
+    display: inline-block;
+    border-radius: 7px;
+}
+/* banner_part End */
+
+/* client_Part Start */
+#client_Part {
+    padding: 30px 0;
+    position: relative;
+    overflow: hidden;
+}
+.client_part_item {
+    display: flex;
+}
+.client_item{
+    width: 150px;
+    margin: 0 auto;
+}
+.client_item img {
+    width: 100%;
+}
+/* client_Part End */
+
+/* product_part Start */
+#product_part {
+    position: relative;
+    overflow: auto;
+    padding: 20px 0 70px;
+}
+.title {
+    margin-bottom: 65px;
+}
+.title h2 {
+    font-size: 38px;
+    text-align: center;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+}
+.product_part_item {
+    display: flex;
+}
+.product_item {
+    width: 274px;
+    box-shadow: 1px 1px 3px rgb(85 82 82 / 21%);
+    margin-right: 15px;
+}
+.product_item_text {
+    text-align: center;
+    padding: 30px 0;
+}
+.product_item_text h3{
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 10px;
+}
+.product_item_text p{
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+}
+.product_item img {
+    width: 100%;
+    height: 292px;
+}
+/* product_part End */
+
+/* banner_part_two Start */
+#banner_part_two{
+    background: url(../images/banner2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.banner_text {
+    padding: 100px 0 150px;
+}
+.banner_text h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    color: white;
+    line-height: 38px;
+    margin-bottom: 20px;
+}
+.banner_text p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    color: white;
+    padding-right: 590px;
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+.banner_text a {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    color: #000000;
+    padding: 15px 25px;
+    background-color: white;
+    display: inline-block;
+    border-radius: 5px;
+}
+/* banner_part_two End */
+
+/* blog_part Start */
+#blog_part {
+    position: relative;
+    overflow: auto;
+    padding: 65px 0 80px;
+}
+.blog_part_item {
+    display: flex;
+}
+.blog_item {
+    width: 50%;
+    margin-right:40px;
+    position: relative;
+}
+.blog_text {
+    width: 420px;
+    background: white;
+    position: absolute;
+    left: 0;
+    bottom: -70px;
+    padding: 30px;
+    transform: translateX(35px);
+    box-shadow: 1px 1px 5px rgb(0 0 0 / 30%);
+}
+.blog_item img {width: 100%;}
+.blog_text h3 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 25px;
+    margin-bottom: 10px;
+}
+.blog_text p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    padding-right: 20px;
+    line-height: 28px;
+    margin-bottom: 15px;
+}
+.blog_text a {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 500;
+    padding: 15px 25px;
+    background-color: black;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+/* blog_part End */
+
+/* faq_part Start */
+#faq_part {
+    position: relative;
+    overflow: hidden;
+    padding: 65px 0 80px;
+}
+.faq_text {
+    position: relative;
+    border-bottom: 1px solid rgb(158 158 158 / 30%);
+    padding: 20px;
+}
+.faq_text h3 {
+    font-family: "Montserrat", sans-serif;
+    color: #333333;
+    font-size: 16px;
+    font-weight: 600;
+}
+.faq_text i {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    color: #333333;
+}
+/* faq_part End */
+
+/* All Common CSS Start */
+#footer_part {
+    position: relative;
+    overflow: hidden;
+    padding: 70px 0 0;
+    background-color: black;
+}
+.ftext {
+    display: flex;
+}
+.text1 {
+    width: 210px;
+    margin-right: 25px;
+}
+.text1 h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    line-height: 25px;
+    margin-bottom: 15px;
+}
+.text1 p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    color: white;
+    line-height: 22px;
+    margin-bottom: 5px;
+    font-weight: 300;
+}
+.text1.margin_right p {
+    padding-right: 15px;
+}
+/* All Common CSS End */
+
+/* All Common CSS Start */
+#footer_bottom_part {
+    position: relative;
+    overflow: hidden;
+    padding: 45px 0;
+    background-color: black;
+}
+.footer_item {
+    display: flex;
+    position: relative;
+}
+.fitem p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    color: white;
+    line-height: 28px;
+    font-weight: 300;
+}
+.arrow_up a{
+    color: white;}
+.arrow_up {
+    position: absolute;
+    right: 40px;
+    bottom: 25px;
+}
+.fitem img {
+    position: absolute;
+    right: 0;
+}
+/* All Common CSS End */
